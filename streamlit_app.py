@@ -45,7 +45,7 @@ except URLError as e:
     streamlit.error()
     
 #added a new stop line in hopes to fix error
-#streamlit.stop()
+streamlit.stop()
 
 # import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
